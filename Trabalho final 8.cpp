@@ -15,7 +15,7 @@ struct cliente{
 };
 
 int indice =0; //contador
-int indice2 = 0; //verifica se existe cadastros depois de exclusão
+int indice2 = 0; //verifica se existe cadastros depois da exclusão
 int i=0;
 void cadastrar(); //funções
 void alterar();
@@ -30,7 +30,7 @@ main () {
 
 	setlocale(LC_ALL,"Portuguese");
 	system("color F4");
-	printf ("		Bem-vindo ao sistema de cadastro e controle da HyperSoft!\n");
+	printf ("	 	 Bem-vindo ao sistema de cadastro e controle da HyperSoft!\n");
 	printf("\n");
 	for (;;){
 		printf ("\n Digite a opção desejada:\n\n");
@@ -106,7 +106,6 @@ void cadastrar (){
 	printf ("Voltando ao menu...\n");
 	Sleep(1200);
 	system("cls");
-	
 }
 
 void alterar(){
